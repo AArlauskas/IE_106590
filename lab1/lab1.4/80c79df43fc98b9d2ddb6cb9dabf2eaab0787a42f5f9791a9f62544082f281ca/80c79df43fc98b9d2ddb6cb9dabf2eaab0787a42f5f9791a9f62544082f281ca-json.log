@@ -1,0 +1,51 @@
+{"log":"The files belonging to this database system will be owned by user \"postgres\".\n","stream":"stdout","time":"2021-10-21T16:24:49.8332491Z"}
+{"log":"This user must also own the server process.\n","stream":"stdout","time":"2021-10-21T16:24:49.8375223Z"}
+{"log":"\n","stream":"stdout","time":"2021-10-21T16:24:49.837536Z"}
+{"log":"The database cluster will be initialized with locale \"en_US.utf8\".\n","stream":"stdout","time":"2021-10-21T16:24:49.8486441Z"}
+{"log":"The default database encoding has accordingly been set to \"UTF8\".\n","stream":"stdout","time":"2021-10-21T16:24:49.8495163Z"}
+{"log":"The default text search configuration will be set to \"english\".\n","stream":"stdout","time":"2021-10-21T16:24:49.8495485Z"}
+{"log":"\n","stream":"stdout","time":"2021-10-21T16:24:49.850836Z"}
+{"log":"Data page checksums are disabled.\n","stream":"stdout","time":"2021-10-21T16:24:49.8508755Z"}
+{"log":"\n","stream":"stdout","time":"2021-10-21T16:24:49.8519619Z"}
+{"log":"fixing permissions on existing directory /tmp ... ok\n","stream":"stdout","time":"2021-10-21T16:24:49.8521275Z"}
+{"log":"creating subdirectories ... ok\n","stream":"stdout","time":"2021-10-21T16:24:49.8697868Z"}
+{"log":"selecting default max_connections ... 100\n","stream":"stdout","time":"2021-10-21T16:24:49.9533676Z"}
+{"log":"selecting default shared_buffers ... 128MB\n","stream":"stdout","time":"2021-10-21T16:24:50.0388326Z"}
+{"log":"selecting default timezone ... Etc/UTC\n","stream":"stdout","time":"2021-10-21T16:24:50.1419677Z"}
+{"log":"selecting dynamic shared memory implementation ... posix\n","stream":"stdout","time":"2021-10-21T16:24:50.1428278Z"}
+{"log":"creating configuration files ... ok\n","stream":"stdout","time":"2021-10-21T16:24:50.1577995Z"}
+{"log":"running bootstrap script ... ok\n","stream":"stdout","time":"2021-10-21T16:24:52.1928651Z"}
+{"log":"performing post-bootstrap initialization ... ok\n","stream":"stdout","time":"2021-10-21T16:24:56.3699444Z"}
+{"log":"syncing data to disk ... ok\n","stream":"stdout","time":"2021-10-21T16:25:11.9088917Z"}
+{"log":"\n","stream":"stderr","time":"2021-10-21T16:25:11.9115845Z"}
+{"log":"WARNING: enabling \"trust\" authentication for local connections\n","stream":"stderr","time":"2021-10-21T16:25:11.9116323Z"}
+{"log":"You can change this by editing pg_hba.conf or using the option -A, or\n","stream":"stderr","time":"2021-10-21T16:25:11.911644Z"}
+{"log":"--auth-local and --auth-host, the next time you run initdb.\n","stream":"stderr","time":"2021-10-21T16:25:11.9116531Z"}
+{"log":"\n","stream":"stdout","time":"2021-10-21T16:25:11.9131568Z"}
+{"log":"Success. You can now start the database server using:\n","stream":"stdout","time":"2021-10-21T16:25:11.9132409Z"}
+{"log":"\n","stream":"stdout","time":"2021-10-21T16:25:11.9132601Z"}
+{"log":"    pg_ctl -D /tmp -l logfile start\n","stream":"stdout","time":"2021-10-21T16:25:11.9135277Z"}
+{"log":"\n","stream":"stdout","time":"2021-10-21T16:25:11.9135393Z"}
+{"log":"waiting for server to start....2021-10-21 16:25:12.035 UTC [48] LOG:  listening on Unix socket \"/var/run/postgresql/.s.PGSQL.5432\"\n","stream":"stdout","time":"2021-10-21T16:25:12.0356896Z"}
+{"log":"2021-10-21 16:25:12.147 UTC [49] LOG:  database system was shut down at 2021-10-21 16:24:56 UTC\n","stream":"stdout","time":"2021-10-21T16:25:12.1478649Z"}
+{"log":"2021-10-21 16:25:12.225 UTC [48] LOG:  database system is ready to accept connections\n","stream":"stdout","time":"2021-10-21T16:25:12.2259572Z"}
+{"log":" done\n","stream":"stdout","time":"2021-10-21T16:25:12.2858185Z"}
+{"log":"server started\n","stream":"stdout","time":"2021-10-21T16:25:12.28587Z"}
+{"log":"\n","stream":"stdout","time":"2021-10-21T16:25:12.7169286Z"}
+{"log":"/usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*\n","stream":"stdout","time":"2021-10-21T16:25:12.7169917Z"}
+{"log":"\n","stream":"stdout","time":"2021-10-21T16:25:12.7170057Z"}
+{"log":"2021-10-21 16:25:12.727 UTC [48] LOG:  received fast shutdown request\n","stream":"stdout","time":"2021-10-21T16:25:12.7277859Z"}
+{"log":"waiting for server to shut down....2021-10-21 16:25:12.753 UTC [48] LOG:  aborting any active transactions\n","stream":"stdout","time":"2021-10-21T16:25:12.7540199Z"}
+{"log":"2021-10-21 16:25:12.764 UTC [48] LOG:  background worker \"logical replication launcher\" (PID 55) exited with exit code 1\n","stream":"stdout","time":"2021-10-21T16:25:12.7642859Z"}
+{"log":"2021-10-21 16:25:12.764 UTC [50] LOG:  shutting down\n","stream":"stdout","time":"2021-10-21T16:25:12.7646226Z"}
+{"log":"2021-10-21 16:25:13.012 UTC [48] LOG:  database system is shut down\n","stream":"stdout","time":"2021-10-21T16:25:13.0125188Z"}
+{"log":" done\n","stream":"stdout","time":"2021-10-21T16:25:13.0288109Z"}
+{"log":"server stopped\n","stream":"stdout","time":"2021-10-21T16:25:13.0288478Z"}
+{"log":"\n","stream":"stdout","time":"2021-10-21T16:25:13.0293052Z"}
+{"log":"PostgreSQL init process complete; ready for start up.\n","stream":"stdout","time":"2021-10-21T16:25:13.0293287Z"}
+{"log":"\n","stream":"stdout","time":"2021-10-21T16:25:13.029337Z"}
+{"log":"2021-10-21 16:25:13.065 UTC [1] LOG:  listening on IPv4 address \"0.0.0.0\", port 5432\n","stream":"stderr","time":"2021-10-21T16:25:13.0657237Z"}
+{"log":"2021-10-21 16:25:13.065 UTC [1] LOG:  listening on IPv6 address \"::\", port 5432\n","stream":"stderr","time":"2021-10-21T16:25:13.0661079Z"}
+{"log":"2021-10-21 16:25:13.107 UTC [1] LOG:  listening on Unix socket \"/var/run/postgresql/.s.PGSQL.5432\"\n","stream":"stderr","time":"2021-10-21T16:25:13.1075725Z"}
+{"log":"2021-10-21 16:25:13.167 UTC [67] LOG:  database system was shut down at 2021-10-21 16:25:12 UTC\n","stream":"stderr","time":"2021-10-21T16:25:13.1681476Z"}
+{"log":"2021-10-21 16:25:13.186 UTC [1] LOG:  database system is ready to accept connections\n","stream":"stderr","time":"2021-10-21T16:25:13.1865043Z"}
