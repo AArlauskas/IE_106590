@@ -1,1 +1,1 @@
-Lab 1 Introduction to Software Engineering
+Labs for Introduction to Software Engineering
