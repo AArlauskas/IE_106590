@@ -22,7 +22,7 @@ public class EmployeeController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Employee> getEmployeeByEmailAdress(@PathVariable(value = "id") Long id)
+    public ResponseEntity<Employee> getEmployeeById(@PathVariable(value = "id") Long id)
     {
         var employee = employeeRepository.findById(id);
         if(employee.isEmpty())
